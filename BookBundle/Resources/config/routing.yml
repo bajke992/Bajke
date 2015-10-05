@@ -3,5 +3,5 @@ book_homepage:
     defaults: { _controller: BookBundle:Default:index }
 
 book_api:
-    path:     /api/{name}
+    path:     /api/v1/{name}
     defaults: { _controller: BookBundle:Default:index }

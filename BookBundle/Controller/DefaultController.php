@@ -12,6 +12,6 @@ class DefaultController extends Controller
     }
 
     public function newAction($name){
-        return $this->render('BookBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('BookBundle:   Default:index.html.twig', array('name' => $name));
     }
 }
