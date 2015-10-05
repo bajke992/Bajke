@@ -1,0 +1,23 @@
+{
+	"name":"bajke/bookbundle",
+	"type":"symfony-bundle",
+	"description":"Devana Job application project",
+	"keywords":["book", "bundle", "devana"],
+	"homepage": "https://github.com/bajke992/Bajke",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"Aleksandar Bajkin",
+			"email":"salebdj@gmail.com"
+		}
+	],
+	"require":{
+		"php":">=5.4.*",
+		"symfony/symfony":"2.7.*"
+	}
+	"autoload":{
+		"psr-0":{
+			"Bajke":"src"
+		}
+	}
+}
